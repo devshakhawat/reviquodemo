@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: ReviQuo documentation page
- * Slug: reviquo/documentation
+ * Slug: reviquodemo/documentation
  * Categories: featured, text
  * Keywords: documentation, guide, woocommerce, reviews
  * Inserter: true

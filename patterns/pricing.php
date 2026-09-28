@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: ReviQuo pricing page
- * Slug: reviquo/pricing
+ * Slug: reviquodemo/pricing
  * Categories: featured, call-to-action
  * Keywords: pricing, plans, woocommerce, reviews
  * Inserter: true

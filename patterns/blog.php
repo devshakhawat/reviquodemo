@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: ReviQuo blog
- * Slug: reviquo/blog
+ * Slug: reviquodemo/blog
  * Categories: featured, posts
  * Keywords: blog, journal, articles, woocommerce
  * Inserter: true

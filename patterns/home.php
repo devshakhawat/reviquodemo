@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: ReviQuo landing page
- * Slug: reviquo/home
+ * Slug: reviquodemo/home
  * Categories: featured, call-to-action
  * Keywords: woocommerce, reviews, landing page
  * Inserter: true
