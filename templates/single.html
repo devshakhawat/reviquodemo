@@ -1,0 +1,96 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","align":"full","className":"wcr-article-page wcr-article-page--split","layout":{"type":"default"}} -->
+<main class="wp-block-group alignfull wcr-article-page wcr-article-page--split" id="article-top">
+	<!-- wp:html --><a class="wcr-article-skip" href="#article-content">Skip to article</a><!-- /wp:html -->
+
+	<!-- wp:group {"tagName":"header","align":"full","className":"wcr-article-header","layout":{"type":"default"}} -->
+	<header class="wp-block-group alignfull wcr-article-header">
+		<!-- wp:group {"align":"wide","className":"wcr-article-hero wcr-rail","layout":{"type":"default"}} -->
+		<div class="wp-block-group alignwide wcr-article-hero wcr-rail">
+		<!-- wp:group {"className":"wcr-article-header__inner","layout":{"type":"default"}} -->
+		<div class="wp-block-group wcr-article-header__inner">
+			<!-- wp:html --><nav class="wcr-article-breadcrumb" aria-label="Breadcrumb"><a href="/blog/">Journal</a><span aria-hidden="true">/</span><span>Story</span></nav><!-- /wp:html -->
+			<!-- wp:post-terms {"term":"category","separator":" · ","className":"wcr-article-category"} /-->
+			<!-- wp:post-title {"level":1,"className":"wcr-article-title"} /-->
+			<!-- wp:post-excerpt {"moreText":"","excerptLength":30,"className":"wcr-article-lede"} /-->
+			<!-- wp:group {"className":"wcr-article-meta","layout":{"type":"flex","flexWrap":"wrap"}} -->
+			<div class="wp-block-group wcr-article-meta">
+				<!-- wp:post-author {"showAvatar":true,"avatarSize":44,"showBio":false,"byline":"By"} /-->
+				<!-- wp:post-date {"format":"F j, Y"} /-->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:group -->
+
+		<!-- wp:group {"className":"wcr-article-media","layout":{"type":"default"}} -->
+		<div class="wp-block-group wcr-article-media">
+			<!-- wp:html --><div class="wcr-article-media__art" aria-hidden="true"><span></span><span></span><i>R</i><small>Customer proof, made visible.</small></div><!-- /wp:html -->
+			<!-- wp:post-featured-image {"aspectRatio":"4/5","className":"wcr-article-featured-image"} /-->
+		</div>
+		<!-- /wp:group -->
+		</div>
+		<!-- /wp:group -->
+	</header>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"tagName":"article","align":"wide","className":"wcr-article-layout wcr-rail","layout":{"type":"default"}} -->
+	<article class="wp-block-group alignwide wcr-article-layout wcr-rail">
+		<!-- wp:group {"tagName":"aside","className":"wcr-article-aside","layout":{"type":"default"}} -->
+		<aside class="wp-block-group wcr-article-aside">
+			<!-- wp:html --><div class="wcr-article-aside__inner"><span>Field note</span><p>Ideas, examples, and practical next steps for better customer proof.</p><a href="#article-content">Start reading <span aria-hidden="true">↓</span></a></div><!-- /wp:html -->
+		</aside>
+		<!-- /wp:group -->
+
+		<!-- wp:group {"anchor":"article-content","className":"wcr-article-content","layout":{"type":"default"}} -->
+		<div id="article-content" class="wp-block-group wcr-article-content">
+			<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+
+			<!-- wp:separator {"className":"wcr-article-divider"} -->
+			<hr class="wp-block-separator has-alpha-channel-opacity wcr-article-divider"/>
+			<!-- /wp:separator -->
+
+			<!-- wp:group {"tagName":"footer","className":"wcr-article-footer","layout":{"type":"default"}} -->
+			<footer class="wp-block-group wcr-article-footer">
+				<!-- wp:post-terms {"term":"post_tag","prefix":"Tagged: ","separator":" · ","className":"wcr-article-tags"} /-->
+				<!-- wp:post-author {"showAvatar":true,"avatarSize":60,"showBio":true,"byline":"Written by","className":"wcr-article-author-card"} /-->
+			</footer>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:group -->
+	</article>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"tagName":"nav","align":"wide","className":"wcr-article-navigation wcr-rail","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+	<nav class="wp-block-group alignwide wcr-article-navigation wcr-rail" aria-label="More stories">
+		<!-- wp:post-navigation-link {"type":"previous","label":"Previous story","showTitle":true,"linkLabel":true,"className":"wcr-article-navigation__previous"} /-->
+		<!-- wp:post-navigation-link {"type":"next","label":"Next story","showTitle":true,"linkLabel":true,"className":"wcr-article-navigation__next"} /-->
+	</nav>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"align":"wide","className":"wcr-article-discussion wcr-rail","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignwide wcr-article-discussion wcr-rail">
+		<!-- wp:comments {"className":"wcr-article-comments"} -->
+		<div class="wp-block-comments wcr-article-comments">
+			<!-- wp:comments-title {"level":2,"showPostTitle":false} /-->
+			<!-- wp:comment-template -->
+				<!-- wp:group {"className":"wcr-article-comment","layout":{"type":"default"}} -->
+				<div class="wp-block-group wcr-article-comment">
+					<!-- wp:group {"className":"wcr-article-comment__meta","layout":{"type":"flex","flexWrap":"wrap"}} -->
+					<div class="wp-block-group wcr-article-comment__meta"><!-- wp:avatar {"size":40} /--><!-- wp:comment-author-name /--><!-- wp:comment-date /--></div>
+					<!-- /wp:group -->
+					<!-- wp:comment-content /-->
+					<!-- wp:comment-reply-link /-->
+				</div>
+				<!-- /wp:group -->
+			<!-- /wp:comment-template -->
+			<!-- wp:comments-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} --><!-- wp:comments-pagination-previous /--><!-- wp:comments-pagination-numbers /--><!-- wp:comments-pagination-next /--><!-- /wp:comments-pagination -->
+			<!-- wp:post-comments-form /-->
+		</div>
+		<!-- /wp:comments -->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
